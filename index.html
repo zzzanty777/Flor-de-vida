@@ -134,6 +134,35 @@
       <a href="#" class="text-decoration-none text-light mx-2">WhatsApp</a>
     </p>
   </footer>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+  // Configuración general
+  ScrollReveal({ 
+    distance: '40px',
+    duration: 1000,
+    easing: 'ease-in-out',
+    delay: 200,
+    reset: false // true si quieres que se repita cada vez que aparece
+  });
 
+  // Animaciones por sección
+  ScrollReveal().reveal('.hero h1', { origin: 'top' });
+  ScrollReveal().reveal('.hero p', { origin: 'bottom', delay: 400 });
+  ScrollReveal().reveal('.hero a', { origin: 'bottom', delay: 600 });
+
+  ScrollReveal().reveal('#quienes h2', { origin: 'bottom' });
+  ScrollReveal().reveal('#quienes p', { origin: 'bottom', delay: 300 });
+  ScrollReveal().reveal('#quienes .col-md-4', { interval: 200, origin: 'bottom' });
+
+  ScrollReveal().reveal('.bg-light h2', { origin: 'top' });
+  ScrollReveal().reveal('.bg-light .col-md-4', { interval: 200, origin: 'bottom' });
+
+  ScrollReveal().reveal('#proyectos h2', { origin: 'bottom' });
+  ScrollReveal().reveal('#proyectos .col-md-6', { interval: 200, origin: 'bottom' });
+
+  ScrollReveal().reveal('.bg-dark h2, .bg-dark p, .bg-dark a', { origin: 'bottom', interval: 200 });
+
+  ScrollReveal().reveal('footer', { origin: 'bottom', delay: 300 });
+</script>
 </body>
 </html>
