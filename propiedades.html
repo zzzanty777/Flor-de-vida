@@ -1,38 +1,129 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Propiedades - Flor de Vida</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sobre Nosotros - Flor de Vida</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #F8F9FA;
+    }
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    }
+    .btn-dorado {
+      background-color: #D4AF37;
+      color: white;
+      border: none;
+    }
+    .btn-dorado:hover {
+      background-color: #bfa033;
+    }
+    .section-bg {
+      background-color: #F5F5DC;
+    }
+    footer {
+      background-color: #0D1B2A;
+      color: #ccc;
+      padding: 40px 0;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <img src="logo.png" alt="Flor de Vida Logo">
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="propiedades.html">Propiedades</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="ejemplos.html">Ejemplos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Propiedades disponibles</h1>
-        <div class="property">
-            <img src="propiedad1.jpg" alt="Propiedad 1">
-            <h2>Casa en el centro</h2>
-            <p>Acogedora vivienda situada en el corazón de la ciudad. Ideal para familias.</p>
+
+  <!-- HEADER SIMPLE -->
+  <nav class="navbar navbar-light bg-light text-center justify-content-center">
+    <a class="navbar-brand" href="index.html">
+      <img src="logo-sin-fondo.png" height="60" alt="Flor de Vida">
+    </a>
+  </nav>
+
+  <!-- HERO -->
+  <header class="text-center py-5">
+    <div class="container">
+      <h1 class="display-5 fw-bold">Sobre Nosotros</h1>
+      <p class="lead">La historia y la esencia de Flor de Vida</p>
+    </div>
+  </header>
+
+  <!-- QUIÉNES SOMOS -->
+  <section class="container py-5">
+    <h2 class="mb-4 text-center">Nuestra historia</h2>
+    <p><strong>Flor de Vida</strong> nace gracias a Roxana Platukis, con la visión de hacer realidad el sueño de tener la casa ideal para cualquier persona. La empresa se funda con un propósito claro: transformar propiedades en espacios funcionales, bellos y valiosos. Llevamos más de 6 años en el sector de las reformas e inmobiliaria, trabajando con pasión, compromiso y detalle.</p>
+    <p>El nombre <em>"Flor de Vida"</em> tiene un doble significado: por un lado, es una expresión común en Uruguay —nuestro país de origen— que representa algo muy bueno, económico y positivo. Por otro lado, se inspira en el símbolo sagrado de la geometría “La Flor de la Vida”, que representa la perfección y la conexión con el universo. Nuestra misión se alinea con ambos conceptos: crear belleza, funcionalidad y armonía en cada reforma.</p>
+  </section>
+
+  <!-- EXPERIENCIA Y SERVICIOS -->
+  <section class="section-bg py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Experiencia y servicios</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <h5>+6 años de experiencia</h5>
+          <p>En reformas completas, interiores y detalles de acabado.</p>
         </div>
-        <div class="property">
-            <img src="propiedad2.jpg" alt="Propiedad 2">
-            <h2>Apartamento con vistas</h2>
-            <p>Apartamento luminoso con excelentes vistas y buena comunicación.</p>
+        <div class="col-md-4">
+          <h5>Reformas más comunes</h5>
+          <p>Parquet y suelos, puertas, cocinas y pintura general.</p>
         </div>
-    </main>
-    <footer>
-        &copy; 2023 Flor de Vida
-    </footer>
+        <div class="col-md-4">
+          <h5>Equipo profesional</h5>
+          <p>Colaboramos con un arquitecto y con Karina Platukis, diseñadora de interiores.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALORES Y FILOSOFÍA -->
+  <section class="container py-5">
+    <h2 class="text-center mb-5">Nuestra filosofía</h2>
+    <p>Buscamos satisfacer a cada cliente haciendo realidad su visión de hogar o ayudándole a revalorizar su propiedad con reformas inteligentes y accesibles. Nos comprometemos a trabajar con limpieza, puntualidad y profesionalismo, cuidando cada detalle como si fuera para nosotros mismos.</p>
+    <p>Flor de Vida no solo promete resultados estéticos, sino también funcionales y rentables. Creemos firmemente que cada euro invertido en una reforma debe transformarse en bienestar y en valor real para el propietario.</p>
+  </section>
+
+  <!-- ZONA DE TRABAJO -->
+  <section class="section-bg py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Zona de actuación</h2>
+      <p class="text-center">Actualmente trabajamos desde <strong>Roses</strong>, cubriendo toda la zona de la <strong>Costa Brava</strong>. Si estás en esta área, estaremos encantados de ayudarte a transformar tu espacio.</p>
+    </div>
+  </section>
+
+  <!-- LLAMADO A LA ACCIÓN -->
+  <section class="text-center py-5 bg-dark text-white">
+    <div class="container">
+      <h2>¿Quieres reformar tu casa?</h2>
+      <p>Contáctanos hoy mismo y te ayudaremos a hacerlo realidad.</p>
+      <a href="contacto.html" class="btn btn-dorado mt-3">Ir a la página de contacto</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center">
+    <img src="logo-sin-fondo.png" alt="Flor de Vida" height="40" class="mb-3">
+    <p>© 2025 Flor de Vida. Todos los derechos reservados.</p>
+    <p>
+      <a href="#" class="text-decoration-none text-light mx-2">Instagram</a>
+      <a href="#" class="text-decoration-none text-light mx-2">WhatsApp</a>
+    </p>
+  </footer>
+
+  <!-- ScrollReveal Animations -->
+  <script>
+    ScrollReveal({ 
+      distance: '40px',
+      duration: 1000,
+      easing: 'ease-in-out',
+      delay: 200
+    });
+    ScrollReveal().reveal('section h2', { origin: 'top' });
+    ScrollReveal().reveal('section p', { origin: 'bottom', interval: 200 });
+    ScrollReveal().reveal('.btn-dorado', { origin: 'bottom', delay: 400 });
+  </script>
+
 </body>
 </html>
