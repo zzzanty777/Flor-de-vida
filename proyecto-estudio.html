@@ -33,6 +33,35 @@
       color: #ccc;
       padding: 40px 0;
     }
+    /* Animación de subrayado elegante */
+.navbar-nav .nav-link {
+  position: relative;
+  display: inline-block;
+  padding: 5px 0;
+  color: #1A2639; /* azul petróleo oscuro */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #D4AF37; /* dorado */
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #D4AF37;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
   </style>
 </head>
 <body>
@@ -61,7 +90,7 @@
   <!-- PORTADA -->
   <header class="text-center py-5">
     <div class="container">
-      <h1 class="fw-bold">Reforma integral en Roses</h1>
+      <h1 class="fw-bold">Reforma integral en Empuriabrava</h1>
       <p class="lead">Una transformación completa de un estudio de 30 m²: cocina, suelos, pintura, puertas y más.</p>
       <img src="img/proyectos/estudiodespues1.jpg" alt="Reforma terminada" class="img-fluid rounded mt-4 shadow" style="max-width: 900px;">
     </div>
