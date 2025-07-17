@@ -31,11 +31,48 @@
       transform: translateY(-5px);
       box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     }
+    .seccion-vacia {
+      font-size: 1.1rem;
+      color: #555;
+      background-color: #ffffff;
+      padding: 40px;
+      text-align: center;
+      border: 1px dashed #ccc;
+      border-radius: 8px;
+    }
     footer {
       background-color: #0D1B2A;
       color: #ccc;
       padding: 40px 0;
     }
+    /* Animación de subrayado elegante */
+.navbar-nav .nav-link {
+  position: relative;
+  display: inline-block;
+  padding: 5px 0;
+  color: #1A2639; /* azul petróleo oscuro */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #D4AF37; /* dorado */
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #D4AF37;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
   </style>
 </head>
 <body>
@@ -44,7 +81,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
     <div class="container">
       <a class="navbar-brand mx-auto" href="index.html">
-        <img src="logo.png" alt="Flor de Vida" height="90">
+        <img src="logo.png" alt="Flor de Vida" height="60">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,43 +101,48 @@
   <!-- HEADER -->
   <header class="text-center py-5">
     <div class="container">
-      <h1 class="fw-bold">Proyectos realizados</h1>
-      <p class="lead">Aquí puedes ver algunas de nuestras reformas más recientes</p>
+      <h1 class="fw-bold">Nuestros Proyectos</h1>
+      <p class="lead">Transformamos espacios en hogares únicos. Aquí te mostramos lo que somos capaces de hacer.</p>
     </div>
   </header>
 
-  <!-- GALERÍA DE PROYECTOS -->
+  <!-- PROYECTOS DESTACADOS -->
   <section class="container py-5">
-    <div class="row g-4">
-      
-      <!-- Proyecto: Reforma en Roses -->
+    <h2 class="mb-4 text-center">Proyectos destacados</h2>
+    <div class="row g-4 justify-content-center">
+      <!-- Proyecto 1: Roses -->
       <div class="col-md-6 col-lg-4">
         <div class="card card-proyecto p-3 h-100">
-          <img src="img/proyectos/roses-preview.jpg" alt="Reforma en Roses" class="img-fluid mb-3 rounded">
-          <h5 class="fw-bold">Reforma Estudio en Empuriabrava</h5>
-          <p>Reforma integral de un piso de 90 m². Cocina abierta, nuevos suelos, puertas, pintura y más.</p>
-          <a href="estudiodespues1.html" class="btn btn-sm btn-dorado mt-2">Ver proyecto</a>
+          <img src="img/proyectos/estudiodespues1.jpg" alt="Reforma en Roses" class="img-fluid mb-3 rounded">
+          <h5 class="fw-bold">Reforma en Empuriabrava</h5>
+          <p>Reforma completa de un piso de 30 m² con cocina abierta, nuevo baño, nuevos suelos y pintura profesional.</p>
+          <a href="proyecto-estudio.html" class="btn btn-sm btn-dorado mt-2">Ver más</a>
         </div>
       </div>
+    </div>
+  </section>
 
-      <!-- Puedes duplicar este bloque para más proyectos -->
-      <!--
-      <div class="col-md-6 col-lg-4">
-        <div class="card card-proyecto p-3 h-100">
-          <img src="img/proyectos/otro.jpg" alt="Otro proyecto" class="img-fluid mb-3 rounded">
-          <h5 class="fw-bold">Proyecto en [Ubicación]</h5>
-          <p>[Breve descripción del proyecto]</p>
-          <a href="proyecto-[nombre].html" class="btn btn-sm btn-dorado mt-2">Ver proyecto</a>
-        </div>
-      </div>
-      -->
+  <!-- PROYECTOS RECIENTES (por ahora vacío, pero con estilo limpio) -->
+  <section class="container py-5">
+    <h2 class="mb-4 text-center">Proyectos recientes</h2>
+    <div class="seccion-vacia">
+      <p>Aún no hay proyectos recientes publicados.<br>
+      Estamos trabajando en nuevas reformas que mostraremos muy pronto.</p>
+    </div>
+  </section>
 
+  <!-- CTA: Contacto para tu proyecto -->
+  <section class="text-center py-5 bg-dark text-white">
+    <div class="container">
+      <h2>¿Tienes un proyecto en mente?</h2>
+      <p>Cuéntanos tu idea. Te asesoramos y te acompañamos para hacerla realidad.</p>
+      <a href="contacto.html" class="btn btn-dorado mt-3">Contactar ahora</a>
     </div>
   </section>
 
   <!-- FOOTER -->
   <footer class="text-center">
-    <img src="logo.png" alt="Flor de Vida" height="55" class="mb-3">
+    <img src="logo.png" alt="Flor de Vida" height="40" class="mb-3">
     <p>© 2025 Flor de Vida. Todos los derechos reservados.</p>
     <p>
       <a href="aviso-legal.html" class="text-light mx-2">Aviso Legal</a> |
@@ -113,7 +155,7 @@
   <!-- Animaciones -->
   <script>
     ScrollReveal({ distance: '40px', duration: 1000, easing: 'ease-in-out', delay: 200 });
-    ScrollReveal().reveal('section h1, section h2', { origin: 'top' });
+    ScrollReveal().reveal('section h2', { origin: 'top' });
     ScrollReveal().reveal('.card-proyecto', { origin: 'bottom', interval: 150 });
   </script>
 
