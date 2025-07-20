@@ -121,21 +121,27 @@
   <section class="container py-5">
     <div class="row justify-content-center">
       <div class="col-md-8">
-        <form>
-          <div class="mb-3">
-            <label for="nombre" class="form-label">Nombre completo</label>
-            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
-          </div>
-          <div class="mb-3">
-            <label for="correo" class="form-label">Correo electrónico</label>
-            <input type="email" class="form-control" id="correo" placeholder="tucorreo@gmail.com">
-          </div>
-          <div class="mb-3">
-            <label for="mensaje" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="mensaje" rows="5" placeholder="Cuéntanos tu idea o proyecto..."></textarea>
-          </div>
-          <button type="submit" class="btn btn-dorado">Enviar mensaje</button>
-        </form>
+        <form action="https://formsubmit.co/reformas@flordevida.es" method="POST">
+  <input type="hidden" name="_next" value="https://zzzanty777.github.io/Flor-de-vida/gracias.html">
+  <input type="hidden" name="_captcha" value="false">
+
+  <div class="mb-3">
+    <label for="nombre" class="form-label">Nombre completo</label>
+    <input type="text" class="form-control" name="nombre" required placeholder="Tu nombre">
+  </div>
+
+  <div class="mb-3">
+    <label for="correo" class="form-label">Correo electrónico</label>
+    <input type="email" class="form-control" name="email" required placeholder="tucorreo@gmail.com">
+  </div>
+
+  <div class="mb-3">
+    <label for="mensaje" class="form-label">Mensaje</label>
+    <textarea class="form-control" name="mensaje" rows="5" required placeholder="Cuéntanos tu idea o proyecto..."></textarea>
+  </div>
+
+  <button type="submit" class="btn btn-dorado">Enviar mensaje</button>
+</form>
       </div>
     </div>
   </section>
@@ -146,7 +152,7 @@
       <h2 class="mb-4">También puedes contactarnos por</h2>
       <div class="d-flex justify-content-center mb-3">
         <!-- Instagram -->
-        <a href="#" class="icono-contacto" title="Instagram">
+        <a href="https://www.instagram.com/flordevida.es/" class="icono-contacto" title="Instagram">
           <i class="fab fa-instagram"></i>
         </a>
         <!-- Gmail -->
@@ -154,11 +160,11 @@
           <i class="fas fa-envelope"></i>
         </a>
         <!-- YouTube -->
-        <a href="#" class="icono-contacto" title="YouTube">
+        <a href="https://www.youtube.com/channel/UCJ9HT8b3jjRuxkGx3iKa4Og" class="icono-contacto" title="YouTube">
           <i class="fab fa-youtube"></i>
         </a>
         <!-- WhatsApp -->
-        <a href="https://wa.me/34XXXXXXXXX" class="icono-contacto" title="WhatsApp" target="_blank">
+        <a href="https://wa.me/34640320103" class="icono-contacto" title="WhatsApp" target="_blank">
           <i class="fab fa-whatsapp"></i>
         </a>
       </div>
