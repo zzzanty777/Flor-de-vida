@@ -20,7 +20,10 @@
     body {
       font-family: 'Inter', sans-serif;
       background-color: #F8F9FA;
-      padding-top: 100px;
+      padding-top: 120px; /* espacio para navbar fija */
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
     }
     h1 {
       font-family: 'Playfair Display', serif;
@@ -37,6 +40,7 @@
       background-color: #0D1B2A;
       color: #ccc;
       padding: 40px 0;
+      margin-top: auto;
     }
     .navbar-nav .nav-link {
       position: relative;
@@ -62,13 +66,12 @@
     .navbar-nav .nav-link:hover::after {
       width: 100%;
     }
-    
   </style>
 </head>
 <body>
 
 <!-- NAVBAR GLOBAL -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3">
   <div class="container">
     <a class="navbar-brand mx-auto" href="index.html">
       <img src="logo.png" alt="Flor de Vida" height="90">
@@ -96,18 +99,19 @@
   </div>
 </nav>
 
-
 <!-- MENSAJE DE GRACIAS -->
-<section class="text-center py-5">
-  <div class="container">
-    <h1 class="mb-4">¡Gracias por tu mensaje!</h1>
-    <p class="lead mb-4">Nos pondremos en contacto contigo lo antes posible.</p>
-    <a href="index.html" class="btn btn-dorado">Volver al inicio</a>
-  </div>
-</section>
+<main class="flex-grow-1">
+  <section class="text-center py-5">
+    <div class="container">
+      <h1 class="mb-4">¡Gracias por tu mensaje!</h1>
+      <p class="lead mb-4">Nos pondremos en contacto contigo lo antes posible.</p>
+      <a href="index.html" class="btn btn-dorado">Volver al inicio</a>
+    </div>
+  </section>
+</main>
 
 <!-- FOOTER -->
-<footer class="text-center mt-5">
+<footer class="text-center">
   <img src="logo.png" alt="Flor de Vida" height="55" class="mb-3">
   <p>© 2025 Flor de Vida. Todos los derechos reservados.</p>
   <p>
@@ -131,3 +135,4 @@
 
 </body>
 </html>
+
