@@ -57,3 +57,28 @@ footer {
 .example img {
     max-width: 100%;
 }
+
+.card {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0,0,0,.15) !important;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.card-text {
+    flex-grow: 1;
+}
