@@ -59,23 +59,28 @@ footer {
 }
 
 .card {
-    border-radius: 12px;
+    border: none;
+    border-radius: 14px;
     overflow: hidden;
     transition: all .3s ease;
 }
 
 .card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 12px 30px rgba(0,0,0,.15) !important;
+    box-shadow: 0 12px 30px rgba(0,0,0,.15);
 }
 
-.card-img-top,
 .proyecto-img {
     width: 100%;
-    height: 250px;
+    height: 260px;
     object-fit: cover;
     object-position: center;
     display: block;
+    transition: transform .3s ease;
+}
+
+.card:hover .proyecto-img {
+    transform: scale(1.05);
 }
 
 .card-title {
@@ -85,12 +90,4 @@ footer {
 
 .card-text {
     flex-grow: 1;
-}
-
-.proyecto-img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    object-position: center;
-    display: block;
 }
