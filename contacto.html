@@ -1,209 +1,132 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <!-- Favicon -->
-<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-<link rel="manifest" href="img/favicon/site.webmanifest">
-<link rel="shortcut icon" href="img/favicon/favicon.ico">
-<meta name="theme-color" content="#ffffff">
-
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Contacto - Flor de Vida</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-  <script src="https://unpkg.com/scrollreveal"></script>
-<link rel="stylesheet" href="css/estilos-responsive.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      background-color: #F8F9FA;
-    }
-    h1, h2 {
-      font-family: 'Playfair Display', serif;
-    }
-    .btn-dorado {
-      background-color: #D4AF37;
-      color: white;
-      border: none;
-    }
-    .btn-dorado:hover {
-      background-color: #bfa033;
-    }
-    footer {
-      background-color: #0D1B2A;
-      color: #ccc;
-      padding: 40px 0;
-    }
-    .icono-contacto {
-      font-size: 2rem;
-      color: #1A2639;
-      margin: 0 15px;
-      transition: color 0.3s;
-    }
-    .icono-contacto:hover {
-      color: #D4AF37;
-    }
-    /* Animación de subrayado elegante */
-.navbar-nav .nav-link {
-  position: relative;
-  display: inline-block;
-  padding: 5px 0;
-  color: #1A2639; /* azul petróleo oscuro */
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.navbar-nav .nav-link::after {
-  content: '';
-  position: absolute;
-  width: 0%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #D4AF37; /* dorado */
-  transition: width 0.3s ease;
-}
-
-.navbar-nav .nav-link:hover {
-  color: #D4AF37;
-}
-
-.navbar-nav .nav-link:hover::after {
-  width: 100%;
-}
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto y presupuesto sin compromiso | Flor de Vida</title>
+  <meta name="description" content="Pide presupuesto para tu reforma en Roses, Empuriabrava, Figueres o la Costa Brava. Escríbenos por WhatsApp, llámanos o envíanos un mensaje.">
+  <link rel="canonical" href="https://flordevida.es/contacto.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Flor de Vida">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:title" content="Contacto y presupuesto sin compromiso | Flor de Vida">
+  <meta property="og:description" content="Pide presupuesto para tu reforma en Roses, Empuriabrava, Figueres o la Costa Brava. Escríbenos por WhatsApp, llámanos o envíanos un mensaje.">
+  <meta property="og:url" content="https://flordevida.es/contacto.html">
+  <meta property="og:image" content="https://flordevida.es/img/proyectos/estudio-empuriabrava/despues1.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0D1B2A">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"Flor de Vida","url":"https://flordevida.es/","logo":"https://flordevida.es/img/logo-512.png","image":"https://flordevida.es/img/proyectos/estudio-empuriabrava/despues1.webp","telephone":"+34 640 320 103","email":"reformas@flordevida.es","address":{"@type":"PostalAddress","addressLocality":"Roses","addressRegion":"Girona","addressCountry":"ES"},"areaServed":["Roses","Empuriabrava","Figueres","Costa Brava"],"sameAs":["https://www.instagram.com/flordevida.es/","https://www.youtube.com/channel/UCJ9HT8b3jjRuxkGx3iKa4Og"]}</script>
 </head>
 <body>
 
-   <!-- NAVBAR GLOBAL -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
-  <div class="container">
-    <a class="navbar-brand mx-auto" href="index.html">
-      <img src="logo.png" alt="Flor de Vida" height="90">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-      <ul class="navbar-nav gap-4">
-        <li class="nav-item">
-          <a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="servicios.html">Servicios</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="proyectos.html">Proyectos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contacto.html">Contacto</a>
-        </li>
-      </ul>
-    </div>
+<header class="cabecera">
+  <div class="contenedor">
+    <a class="logo" href="index.html"><img src="img/logo.webp" alt="Flor de Vida — reformas integrales" width="74" height="58"></a>
+    <button class="menu-boton" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><i class="bi bi-list"></i></button>
+    <nav class="menu" id="menu">
+      <a href="sobre-nosotros.html">Sobre nosotros</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a href="contacto.html" aria-current="page">Contacto</a>
+      <a class="btn btn--dorado" href="contacto.html">Presupuesto gratis</a>
+    </nav>
   </div>
-</nav>
+</header>
 
-  <!-- HEADER -->
-  <header class="text-center py-5">
-    <div class="container">
-      <h1 class="fw-bold">Contacto</h1>
-      <p class="lead">Cuéntanos tu idea y te ayudamos a transformarla en realidad</p>
-    </div>
-  </header>
+<main>
 
-  <!-- FORMULARIO -->
-  <section class="container py-5">
-    <div class="row justify-content-center">
-      <div class="col-md-8">
-        <form action="https://formsubmit.co/reformas@flordevida.es" method="POST">
-  <input type="hidden" name="_next" value="https://zzzanty777.github.io/Flor-de-vida/gracias.html">
-  <input type="hidden" name="_captcha" value="false">
-
-  <div class="mb-3">
-    <label for="nombre" class="form-label">Nombre completo</label>
-    <input type="text" class="form-control" name="nombre" required placeholder="Tu nombre">
-  </div>
-
-  <div class="mb-3">
-    <label for="correo" class="form-label">Correo electrónico</label>
-    <input type="email" class="form-control" name="email" required placeholder="tucorreo@gmail.com">
-  </div>
-
-  <div class="mb-3">
-    <label for="mensaje" class="form-label">Mensaje</label>
-    <textarea class="form-control" name="mensaje" rows="5" required placeholder="Cuéntanos tu idea o proyecto..."></textarea>
-  </div>
-
-  <button type="submit" class="btn btn-dorado">Enviar mensaje</button>
-</form>
-      </div>
+  <section class="cab-pagina">
+    <div class="contenedor">
+      <span class="antetitulo">Contacto</span>
+      <h1>Cuéntanos tu proyecto</h1>
+      <p>Te respondemos lo antes posible con un presupuesto claro y sin compromiso.</p>
     </div>
   </section>
 
-  <!-- CONTACTO DIRECTO -->
-  <section class="bg-light py-5 text-center">
-    <div class="container">
-      <h2 class="mb-4">También puedes contactarnos por</h2>
-      <div class="d-flex justify-content-center mb-3">
-        <!-- Instagram -->
-        <a href="https://www.instagram.com/flordevida.es/" class="icono-contacto" title="Instagram">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <!-- Gmail -->
-        <a href="mailto:reformas@flordevida.es" class="icono-contacto" title="Email">
-          <i class="fas fa-envelope"></i>
-        </a>
-        <!-- YouTube -->
-        <a href="https://www.youtube.com/channel/UCJ9HT8b3jjRuxkGx3iKa4Og" class="icono-contacto" title="YouTube">
-          <i class="fab fa-youtube"></i>
-        </a>
-        <!-- WhatsApp -->
-        <a href="https://wa.me/34640320103" class="icono-contacto" title="WhatsApp" target="_blank">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </div>
-      
+  <section class="seccion">
+    <div class="contenedor detalle">
+      <form class="formulario" action="https://formsubmit.co/reformas@flordevida.es" method="POST">
+        <input type="hidden" name="_next" value="https://flordevida.es/gracias.html">
+        <input type="hidden" name="_subject" value="Nueva consulta desde flordevida.es">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" class="oculto" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <div><label for="nombre">Nombre</label><input id="nombre" name="nombre" required autocomplete="name" placeholder="Tu nombre"></div>
+        <div><label for="telefono">Teléfono</label><input id="telefono" name="telefono" type="tel" required autocomplete="tel" placeholder="600 000 000"></div>
+        <div><label for="email">Correo electrónico</label><input id="email" name="email" type="email" autocomplete="email" placeholder="tucorreo@gmail.com"></div>
+        <div><label for="poblacion">Población</label><input id="poblacion" name="poblacion" placeholder="Roses, Empuriabrava, Figueres..."></div>
+        <div class="ancho">
+          <label for="tipo">¿Qué necesitas?</label>
+          <select id="tipo" name="tipo">
+            <option>Reforma integral</option>
+            <option>Reforma de cocina</option>
+            <option>Reforma de baño</option>
+            <option>Suelos, puertas o pintura</option>
+            <option>Exterior, terraza o piscina</option>
+            <option>Venta o valoración de una propiedad</option>
+            <option>Otra consulta</option>
+          </select>
+        </div>
+        <div class="ancho"><label for="mensaje">Cuéntanos tu idea</label><textarea id="mensaje" name="mensaje" rows="5" required placeholder="Metros aproximados, qué te gustaría cambiar, plazos..."></textarea></div>
+        <div class="ancho"><label class="casilla"><input type="checkbox" name="acepta_privacidad" value="sí" required> <span>He leído y acepto la <a href="privacidad.html">política de privacidad</a>.</span></label></div>
+        <div class="ancho"><button type="submit" class="btn btn--dorado">Enviar mensaje</button></div>
+      </form>
+
+      <aside class="contacto-directo">
+        <h2 style="font-size: 1.5rem">¿Prefieres hablar directamente?</h2>
+        <a href="https://wa.me/34640320103?text=Hola%2C%20he%20visto%20vuestra%20web%20y%20me%20gustar%C3%ADa%20pedir%20presupuesto%20para%20una%20reforma." target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i><span>WhatsApp<small>La forma más rápida de pedir presupuesto</small></span></a>
+        <a href="tel:+34640320103"><i class="bi bi-telephone"></i><span>+34 640 320 103<small>Llámanos</small></span></a>
+        <a href="mailto:reformas@flordevida.es"><i class="bi bi-envelope"></i><span>reformas@flordevida.es<small>Escríbenos un correo</small></span></a>
+        <a href="https://www.instagram.com/flordevida.es/" target="_blank" rel="noopener"><i class="bi bi-instagram"></i><span>Instagram<small>Mira nuestros últimos trabajos</small></span></a>
+        <p style="margin-top: 18px"><i class="bi bi-geo-alt" style="color: var(--dorado-osc)"></i> Trabajamos en Roses, Empuriabrava, Figueres, Costa Brava.</p>
+      </aside>
     </div>
   </section>
 
-  <!-- FOOTER -->
-  <footer class="text-center">
-    <img src="logo.png" alt="Flor de Vida" height="55" class="mb-3">
-    <p>© 2025 Flor de Vida. Todos los derechos reservados.</p>
-    <p>
-    <a href="https://www.instagram.com/flordevida.es/" target="_blank" class="text-decoration-none text-light mx-2">
-  <i class="bi bi-instagram me-1"></i>Instagram
-</a>
-      <a href="https://www.youtube.com/channel/UCJ9HT8b3jjRuxkGx3iKa4Og" target="_blank" class="text-decoration-none text-light mx-2">
-  <i class="bi bi-youtube me-1"></i>YouTube
-</a>
-<a href="https://wa.me/34640320103" target="_blank" class="text-decoration-none text-light mx-2">
-  <i class="bi bi-whatsapp me-1"></i>WhatsApp
-</a>
-    </p>
-   <p>
-  <a href="aviso-legal.html" class="text-light mx-2">Aviso Legal</a> |
-  <a href="privacidad.html" class="text-light mx-2">Privacidad</a> |
-  <a href="cookies.html" class="text-light mx-2">Cookies</a> |
-  <a href="terminos-y-condiciones.html" class="text-light mx-2">Términos</a>
-</p>
-  </footer>
+</main>
 
-  <!-- ScrollReveal -->
-  <script>
-    ScrollReveal({ distance: '40px', duration: 1000, easing: 'ease-in-out', delay: 200 });
-    ScrollReveal().reveal('h1, h2', { origin: 'top' });
-    ScrollReveal().reveal('form, .icono-contacto', { origin: 'bottom', interval: 200 });
-  </script>
-<!-- Bootstrap Bundle con Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<footer class="pie">
+  <div class="contenedor">
+    <div class="rejilla">
+      <div>
+        <img class="logo-pie" src="img/logo.webp" alt="Flor de Vida" width="81" height="64" loading="lazy">
+        <p>Empresa familiar de reformas integrales y asesoramiento inmobiliario. Trabajamos desde Roses en toda la Costa Brava.</p>
+      </div>
+      <div>
+        <h3>Contacto</h3>
+        <ul>
+          <li><a href="tel:+34640320103"><i class="bi bi-telephone"></i>+34 640 320 103</a></li>
+          <li><a href="https://wa.me/34640320103?text=Hola%2C%20he%20visto%20vuestra%20web%20y%20me%20gustar%C3%ADa%20pedir%20presupuesto%20para%20una%20reforma." target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i>WhatsApp</a></li>
+          <li><a href="mailto:reformas@flordevida.es"><i class="bi bi-envelope"></i>reformas@flordevida.es</a></li>
+          <li><i class="bi bi-geo-alt"></i>Roses · Empuriabrava · Figueres · Costa Brava</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Síguenos</h3>
+        <ul>
+          <li><a href="https://www.instagram.com/flordevida.es/" target="_blank" rel="noopener"><i class="bi bi-instagram"></i>Instagram</a></li>
+          <li><a href="https://www.youtube.com/channel/UCJ9HT8b3jjRuxkGx3iKa4Og" target="_blank" rel="noopener"><i class="bi bi-youtube"></i>YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legales">
+      <span>© 2026 Flor de Vida. Todos los derechos reservados.</span>
+      <span><a href="aviso-legal.html">Aviso legal</a> · <a href="privacidad.html">Privacidad</a> · <a href="cookies.html">Cookies</a> · <a href="terminos-y-condiciones.html">Términos</a></span>
+    </div>
+  </div>
+</footer>
 
+<a class="wa-flotante" href="https://wa.me/34640320103?text=Hola%2C%20he%20visto%20vuestra%20web%20y%20me%20gustar%C3%ADa%20pedir%20presupuesto%20para%20una%20reforma." target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp"><i class="bi bi-whatsapp"></i></a>
+<script src="js/web.js" defer></script>
 </body>
 </html>

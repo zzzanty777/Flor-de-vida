@@ -1,0 +1,53 @@
+<!--
+titulo: Contacto y presupuesto sin compromiso | Flor de Vida
+descripcion: Pide presupuesto para tu reforma en Roses, Empuriabrava, Figueres o la Costa Brava. Escríbenos por WhatsApp, llámanos o envíanos un mensaje.
+menu: contacto
+-->
+  <section class="cab-pagina">
+    <div class="contenedor">
+      <span class="antetitulo">Contacto</span>
+      <h1>Cuéntanos tu proyecto</h1>
+      <p>Te respondemos lo antes posible con un presupuesto claro y sin compromiso.</p>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="contenedor detalle">
+      <form class="formulario" action="https://formsubmit.co/{{email}}" method="POST">
+        <input type="hidden" name="_next" value="{{dominio}}/gracias.html">
+        <input type="hidden" name="_subject" value="Nueva consulta desde flordevida.es">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" class="oculto" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <div><label for="nombre">Nombre</label><input id="nombre" name="nombre" required autocomplete="name" placeholder="Tu nombre"></div>
+        <div><label for="telefono">Teléfono</label><input id="telefono" name="telefono" type="tel" required autocomplete="tel" placeholder="600 000 000"></div>
+        <div><label for="email">Correo electrónico</label><input id="email" name="email" type="email" autocomplete="email" placeholder="tucorreo@gmail.com"></div>
+        <div><label for="poblacion">Población</label><input id="poblacion" name="poblacion" placeholder="Roses, Empuriabrava, Figueres..."></div>
+        <div class="ancho">
+          <label for="tipo">¿Qué necesitas?</label>
+          <select id="tipo" name="tipo">
+            <option>Reforma integral</option>
+            <option>Reforma de cocina</option>
+            <option>Reforma de baño</option>
+            <option>Suelos, puertas o pintura</option>
+            <option>Exterior, terraza o piscina</option>
+            <option>Venta o valoración de una propiedad</option>
+            <option>Otra consulta</option>
+          </select>
+        </div>
+        <div class="ancho"><label for="mensaje">Cuéntanos tu idea</label><textarea id="mensaje" name="mensaje" rows="5" required placeholder="Metros aproximados, qué te gustaría cambiar, plazos..."></textarea></div>
+        <div class="ancho"><label class="casilla"><input type="checkbox" name="acepta_privacidad" value="sí" required> <span>He leído y acepto la <a href="privacidad.html">política de privacidad</a>.</span></label></div>
+        <div class="ancho"><button type="submit" class="btn btn--dorado">Enviar mensaje</button></div>
+      </form>
+
+      <aside class="contacto-directo">
+        <h2 style="font-size: 1.5rem">¿Prefieres hablar directamente?</h2>
+        <a href="{{whatsapp_url}}" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i><span>WhatsApp<small>La forma más rápida de pedir presupuesto</small></span></a>
+        <a href="{{telefono_url}}"><i class="bi bi-telephone"></i><span>{{telefono}}<small>Llámanos</small></span></a>
+        <a href="mailto:{{email}}"><i class="bi bi-envelope"></i><span>{{email}}<small>Escríbenos un correo</small></span></a>
+        <a href="{{instagram}}" target="_blank" rel="noopener"><i class="bi bi-instagram"></i><span>Instagram<small>Mira nuestros últimos trabajos</small></span></a>
+        <p style="margin-top: 18px"><i class="bi bi-geo-alt" style="color: var(--dorado-osc)"></i> Trabajamos en {{zonas}}.</p>
+      </aside>
+    </div>
+  </section>

@@ -1,0 +1,15 @@
+{
+  "name": "flordevida-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fotos": "node herramientas/fotos.mjs",
+    "generar": "node herramientas/generar.mjs",
+    "ver": "npx --yes serve@14.2.4 -l 4321 ."
+  },
+  "devDependencies": {
+    "heic-convert": "^2.1.0",
+    "jsqr": "1.4.0",
+    "sharp": "0.34.2"
+  }
+}

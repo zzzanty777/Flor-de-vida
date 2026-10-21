@@ -1,292 +1,200 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <!-- Favicon -->
-<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-<link rel="manifest" href="img/favicon/site.webmanifest">
-<link rel="shortcut icon" href="img/favicon/favicon.ico">
-<meta name="theme-color" content="#ffffff">
-
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Flor de Vida - Reformas Integrales</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Bootstrap Icons -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="css/estilos-responsive.css">
-
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      background-color: #F8F9FA;
-    }
-    h1, h2, h3 {
-      font-family: 'Playfair Display', serif;
-    }
-    .navbar {
-      background-color: #F5F5DC;
-    }
-    .hero {
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('tu-imagen-de-fondo.jpg') no-repeat center center/cover;
-      height: 100vh;
-      color: white;
-    }
-    .btn-dorado {
-      background-color: #D4AF37;
-      color: white;
-      border: none;
-    }
-    .btn-dorado:hover {
-      background-color: #bfa033;
-    }
-    footer {
-      background-color: #0D1B2A;
-      color: #ccc;
-      padding: 40px 0;
-    }
-    /* Animación de subrayado elegante */
-.navbar-nav .nav-link {
-  position: relative;
-  display: inline-block;
-  padding: 5px 0;
-  color: #1A2639; /* azul petróleo oscuro */
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.navbar-nav .nav-link::after {
-  content: '';
-  position: absolute;
-  width: 0%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #D4AF37; /* dorado */
-  transition: width 0.3s ease;
-}
-
-.navbar-nav .nav-link:hover {
-  color: #D4AF37;
-}
-
-.navbar-nav .nav-link:hover::after {
-  width: 100%;
-}
-
-
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reformas integrales en Roses y la Costa Brava | Flor de Vida</title>
+  <meta name="description" content="Empresa familiar de reformas integrales y parciales en Roses, Empuriabrava, Figueres y toda la Costa Brava. Cocinas, baños, suelos y más. Presupuesto sin compromiso.">
+  <link rel="canonical" href="https://flordevida.es/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Flor de Vida">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:title" content="Reformas integrales en Roses y la Costa Brava | Flor de Vida">
+  <meta property="og:description" content="Empresa familiar de reformas integrales y parciales en Roses, Empuriabrava, Figueres y toda la Costa Brava. Cocinas, baños, suelos y más. Presupuesto sin compromiso.">
+  <meta property="og:url" content="https://flordevida.es/">
+  <meta property="og:image" content="https://flordevida.es/img/proyectos/estudio-empuriabrava/despues1.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0D1B2A">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"Flor de Vida","url":"https://flordevida.es/","logo":"https://flordevida.es/img/logo-512.png","image":"https://flordevida.es/img/proyectos/estudio-empuriabrava/despues1.webp","telephone":"+34 640 320 103","email":"reformas@flordevida.es","address":{"@type":"PostalAddress","addressLocality":"Roses","addressRegion":"Girona","addressCountry":"ES"},"areaServed":["Roses","Empuriabrava","Figueres","Costa Brava"],"sameAs":["https://www.instagram.com/flordevida.es/","https://www.youtube.com/channel/UCJ9HT8b3jjRuxkGx3iKa4Og"]}</script>
 </head>
 <body>
 
- <!-- NAVBAR GLOBAL -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
-  <div class="container">
-    <a class="navbar-brand mx-auto" href="index.html">
-      <img src="logo.png" alt="Flor de Vida" height="90">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-      <ul class="navbar-nav gap-4">
-        <li class="nav-item">
-          <a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="servicios.html">Servicios</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="proyectos.html">Proyectos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contacto.html">Contacto</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
- <!-- HERO CON IMAGEN DE FONDO -->
-<header class="hero d-flex align-items-center justify-content-center text-center text-white" style="background-image: url('img/proyectos/estudiodespues1.jpg'); background-size: cover; background-position: center; min-height: 80vh; position: relative;">
-  <div style="position: absolute; inset: 0; background-color: rgba(0, 0, 0, 0.4); z-index: 1;"></div>
-  <div style="z-index: 2;">
-    <h1 class="display-4 fw-bold">Transformamos espacios con alma</h1>
-    <p class="lead mt-3">Reformas integrales con diseño, detalle y experiencia</p>
-    <a href="#proyectos" class="btn btn-dorado mt-4">Ver proyectos</a>
+<header class="cabecera">
+  <div class="contenedor">
+    <a class="logo" href="index.html"><img src="img/logo.webp" alt="Flor de Vida — reformas integrales" width="74" height="58"></a>
+    <button class="menu-boton" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><i class="bi bi-list"></i></button>
+    <nav class="menu" id="menu">
+      <a href="sobre-nosotros.html">Sobre nosotros</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a href="contacto.html">Contacto</a>
+      <a class="btn btn--dorado" href="contacto.html">Presupuesto gratis</a>
+    </nav>
   </div>
 </header>
 
-  <!-- QUIÉNES SOMOS -->
-  <section class="container my-5 text-center" id="quienes">
-    <h2 class="mb-4">Quiénes somos</h2>
-    <p class="mb-4">Somos una empresa familiar dedicada a renovar propiedades con pasión y precisión. Combinamos diseño, arquitectura y experiencia en reformas para transformar cada espacio en algo único y valioso.</p>
-    <div class="row">
-      <div class="col-md-4">
-        <h5>+6 años de experiencia</h5>
+<main>
+
+  <section class="hero">
+    <img src="img/proyectos/estudio-empuriabrava/despues1-800.webp" srcset="img/proyectos/estudio-empuriabrava/despues1-800.webp 800w, img/proyectos/estudio-empuriabrava/despues1.webp 1800w" sizes="100vw" alt="Salón reformado por Flor de Vida en Empuriabrava" fetchpriority="high">
+    <div class="contenedor">
+      <span class="antetitulo">Reformas en Roses y la Costa Brava</span>
+      <h1>Transformamos espacios con alma</h1>
+      <p class="lead">Reformas integrales y parciales con diseño, detalle y experiencia. Nos encargamos de todo, de principio a fin.</p>
+      <div class="botones">
+        <a class="btn btn--dorado" href="contacto.html">Pedir presupuesto gratis</a>
+        <a class="btn btn--whatsapp" href="https://wa.me/34640320103?text=Hola%2C%20he%20visto%20vuestra%20web%20y%20me%20gustar%C3%ADa%20pedir%20presupuesto%20para%20una%20reforma." target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i> WhatsApp</a>
       </div>
-      <div class="col-md-4">
-        <h5>Calidad garantizada</h5>
+      <ul class="confianza">
+        <li><i class="bi bi-award"></i>+6 años de experiencia</li>
+        <li><i class="bi bi-house-heart"></i>Empresa familiar</li>
+        <li><i class="bi bi-chat-dots"></i>Consulta sin compromiso</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="contenedor">
+      <div class="centrado">
+        <span class="antetitulo">Qué hacemos</span>
+        <h2>Todo lo que necesita tu vivienda</h2>
+        <p class="intro">Reformamos, asesoramos y te ayudamos a revalorizar tu propiedad, cuidando cada detalle como si fuera nuestra.</p>
       </div>
-      <div class="col-md-4">
-        <h5>Trato cercano y profesional</h5>
+      <div class="rejilla rejilla--3">
+        <div class="tarjeta aparece"><i class="icono bi bi-hammer"></i><h3>Reformas integrales y parciales</h3><p>Cocinas, baños, suelos y parquet, puertas, pintura y acabados. Nos encargamos de permisos, obra e instalación.</p></div>
+        <div class="tarjeta aparece"><i class="icono bi bi-palette"></i><h3>Diseño y asesoría</h3><p>Planificamos tu reforma desde cero con ideas claras, materiales recomendados y distribución eficiente según tu presupuesto.</p></div>
+        <div class="tarjeta aparece"><i class="icono bi bi-house-check"></i><h3>Venta y valoración</h3><p>Te asesoramos en la venta de tu propiedad y te damos una valoración gratuita y sin compromiso.</p></div>
+      </div>
+      <p class="centrado" style="margin-top: 28px"><a href="servicios.html" class="mas">Ver todos los servicios <i class="bi bi-arrow-right"></i></a></p>
+    </div>
+  </section>
+
+  <section class="seccion seccion--crema" id="proyectos">
+    <div class="contenedor">
+      <div class="centrado">
+        <span class="antetitulo">Proyectos</span>
+        <h2>Proyectos destacados</h2>
+        <p class="intro">Algunos de los espacios que hemos transformado en la Costa Brava.</p>
+      </div>
+      <div class="rejilla rejilla--proyectos">
+      <a class="proyecto aparece" href="proyecto-estudio.html">
+        <figure><img src="img/proyectos/estudio-empuriabrava/despues1-800.webp" srcset="img/proyectos/estudio-empuriabrava/despues1-800.webp 800w, img/proyectos/estudio-empuriabrava/despues1.webp 1800w" sizes="(max-width: 700px) 100vw, 380px" alt="Reforma de estudio de 30 m² en Empuriabrava" loading="lazy" decoding="async"></figure>
+        <div class="cuerpo">
+          <div class="etiquetas"><span class="etiqueta etiqueta--destacado"><i class="bi bi-star-fill"></i> Destacado</span><span class="etiqueta">Reforma integral</span><span class="etiqueta"><i class="bi bi-geo-alt"></i> Empuriabrava</span></div>
+          <h3>Reforma de estudio de 30 m² en Empuriabrava</h3>
+          <p>Transformación completa de un estudio de 30 m²: cocina nueva, baño, parquet, puertas y pintura.</p>
+          <span class="mas">Ver proyecto <i class="bi bi-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="proyecto aparece" href="proyecto-bano-empuriabrava.html">
+        <figure><img src="img/proyectos/bano-empuriabrava/bano-general-800.webp" srcset="img/proyectos/bano-empuriabrava/bano-general-800.webp 800w, img/proyectos/bano-empuriabrava/bano-general.webp 1800w" sizes="(max-width: 700px) 100vw, 380px" alt="Reforma completa de baño en Empuriabrava" style="object-position: 50% 72%" loading="lazy" decoding="async"></figure>
+        <div class="cuerpo">
+          <div class="etiquetas"><span class="etiqueta etiqueta--destacado"><i class="bi bi-star-fill"></i> Destacado</span><span class="etiqueta">Reforma completa</span><span class="etiqueta"><i class="bi bi-geo-alt"></i> Empuriabrava</span></div>
+          <h3>Reforma completa de baño en Empuriabrava</h3>
+          <p>Baño hecho de principio a fin: ducha con mampara, mueble de madera a medida con resina epoxi y espejo retroiluminado.</p>
+          <span class="mas">Ver proyecto <i class="bi bi-arrow-right"></i></span>
+        </div>
+      </a>
+      <a class="proyecto aparece" href="casa-con-piscina.html">
+        <figure><img src="img/proyectos/casa-con-piscina/piscina2-800.webp" srcset="img/proyectos/casa-con-piscina/piscina2-800.webp 800w, img/proyectos/casa-con-piscina/piscina2.webp 1800w" sizes="(max-width: 700px) 100vw, 380px" alt="Reforma integral de vivienda con piscina" loading="lazy" decoding="async"></figure>
+        <div class="cuerpo">
+          <div class="etiquetas"><span class="etiqueta etiqueta--destacado"><i class="bi bi-star-fill"></i> Destacado</span><span class="etiqueta">Reforma integral</span><span class="etiqueta"><i class="bi bi-geo-alt"></i> Figueres</span></div>
+          <h3>Reforma integral de vivienda con piscina</h3>
+          <p>Renovación del exterior, la zona de piscina y los dormitorios con nuevos suelos, revestimientos y mobiliario a medida.</p>
+          <span class="mas">Ver proyecto <i class="bi bi-arrow-right"></i></span>
+        </div>
+      </a>
+    </div>
+      <div class="centrado" style="margin-top: 36px"><a class="btn btn--dorado" href="proyectos.html">Ver todos los proyectos</a></div>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="contenedor">
+      <div class="centrado">
+        <span class="antetitulo">Cómo trabajamos</span>
+        <h2>Nuestro proceso</h2>
+      </div>
+      <div class="rejilla rejilla--3 pasos">
+        <div class="paso aparece"><h3>Estudio personalizado</h3><p>Visitamos y analizamos tu propiedad para ofrecerte la mejor solución, con un presupuesto claro.</p></div>
+        <div class="paso aparece"><h3>Reforma integral o parcial</h3><p>Nos encargamos de todo: permisos, obra, instalaciones y acabados, con limpieza y puntualidad.</p></div>
+        <div class="paso aparece"><h3>Resultado final</h3><p>Espacios modernos, funcionales y con valor añadido, listos para vivir, alquilar o vender.</p></div>
       </div>
     </div>
   </section>
 
-  <!-- PROCESO -->
-  <section class="bg-light py-5 text-center">
-    <div class="container">
-      <h2 class="mb-5">Nuestro proceso</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <h5>1. Estudio personalizado</h5>
-          <p>Analizamos cada propiedad para ofrecer la mejor solución.</p>
-        </div>
-        <div class="col-md-4">
-          <h5>2. Reforma integral/parcial</h5>
-          <p>Nos encargamos de todo: permisos, reforma, instalación, acabados.</p>
-        </div>
-        <div class="col-md-4">
-          <h5>3. Resultado final</h5>
-          <p>Espacios modernos, funcionales y con valor añadido.</p>
-        </div>
+  <section class="seccion seccion--crema">
+    <div class="contenedor dos-col">
+      <img src="img/proyectos/casa-con-piscina/dormitorio1-800.webp" alt="Dormitorio reformado por Flor de Vida" loading="lazy">
+      <div>
+        <span class="antetitulo">Quiénes somos</span>
+        <h2>Una empresa familiar con pasión por los detalles</h2>
+        <p>Somos una empresa familiar dedicada a renovar propiedades con pasión y precisión. Combinamos diseño, arquitectura y experiencia en reformas para transformar cada espacio en algo único y valioso.</p>
+        <ul class="lista-check">
+          <li>+6 años de experiencia en reformas</li>
+          <li>Trato cercano, directo y profesional</li>
+          <li>Colaboramos con arquitecto y diseñadora de interiores</li>
+        </ul>
+        <a class="btn btn--dorado" href="sobre-nosotros.html">Conócenos</a>
       </div>
     </div>
   </section>
 
- <!-- PROYECTOS -->
-<section class="container py-5" id="proyectos">
-  <h2 class="text-center mb-5">Proyectos recientes</h2>
-
-  <div class="row g-4">
-
-    <!-- Proyecto 1 -->
-    <div class="col-md-6 col-lg-4">
-      <div class="card h-100 border-0 shadow-sm">
-
-        <img src="img/proyectos/estudiodespues4.jpg"
-             class="card-img-top proyecto-img"
-             alt="Reforma estudio en Empuriabrava">
-
-        <div class="card-body d-flex flex-column">
-
-          <h5 class="card-title">
-            Reforma estudio en Empuriabrava
-          </h5>
-
-          <p class="card-text">
-            Reforma integral de un estudio de 30 m² con nueva cocina,
-            parquet y acabados modernos.
-          </p>
-
-          <a href="proyecto-estudio.html"
-             class="btn btn-dorado mt-auto">
-            Ver proyecto
-          </a>
-
-        </div>
-      </div>
-    </div>
-
-    <!-- Proyecto 2 -->
-    <div class="col-md-6 col-lg-4">
-      <div class="card h-100 border-0 shadow-sm">
-
-        <img src="img/proyectos/casa-con-piscina/portada.png"
-             class="card-img-top proyecto-img"
-             alt="Reforma integral de vivienda">
-
-        <div class="card-body d-flex flex-column">
-
-          <h5 class="card-title">
-            Reforma integral de vivienda
-          </h5>
-
-          <p class="card-text">
-            Reforma del exterior y dormitorios con nuevos suelos,
-            revestimientos y acabados modernos.
-          </p>
-
-          <a href="casa-con-piscina.html"
-             class="btn btn-dorado mt-auto">
-            Ver proyecto
-          </a>
-
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-  <!-- CONTACTO -->
-  <section class="py-5 bg-dark text-white text-center">
-    <div class="container">
+  <section class="seccion seccion--noche cta">
+    <div class="contenedor">
       <h2>¿Tienes un proyecto en mente?</h2>
-      <p>Contáctanos y te ayudaremos a hacerlo realidad.</p>
-      <a href="contacto.html" class="btn btn-dorado mt-3">Enviar mensaje</a>
+      <p>Cuéntanos tu idea. Te asesoramos sin compromiso y te damos un presupuesto claro. Trabajamos en Roses, Empuriabrava, Figueres, Costa Brava.</p>
+      <div class="botones">
+        <a class="btn btn--dorado" href="contacto.html">Pedir presupuesto</a>
+        <a class="btn btn--whatsapp" href="https://wa.me/34640320103?text=Hola%2C%20he%20visto%20vuestra%20web%20y%20me%20gustar%C3%ADa%20pedir%20presupuesto%20para%20una%20reforma." target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i> Escribir por WhatsApp</a>
+        <a class="btn btn--linea" href="tel:+34640320103"><i class="bi bi-telephone"></i> +34 640 320 103</a>
+      </div>
     </div>
   </section>
 
-  <!-- FOOTER -->
-  <footer class="text-center">
-    <img src="logo.png" alt="Flor de Vida" height="55" class="mb-3">
-    <p>© 2025 Flor de Vida. Todos los derechos reservados.</p>
-    <p>
-    <a href="https://www.instagram.com/flordevida.es/" target="_blank" class="text-decoration-none text-light mx-2">
-  <i class="bi bi-instagram me-1"></i>Instagram
-</a>
-      <a href="https://www.youtube.com/channel/UCJ9HT8b3jjRuxkGx3iKa4Og" target="_blank" class="text-decoration-none text-light mx-2">
-  <i class="bi bi-youtube me-1"></i>YouTube
-</a>
-<a href="https://wa.me/34640320103" target="_blank" class="text-decoration-none text-light mx-2">
-  <i class="bi bi-whatsapp me-1"></i>WhatsApp
-</a>
-    </p>
-   <p>
-  <a href="aviso-legal.html" class="text-light mx-2">Aviso Legal</a> |
-  <a href="privacidad.html" class="text-light mx-2">Privacidad</a> |
-  <a href="cookies.html" class="text-light mx-2">Cookies</a> |
-  <a href="terminos-y-condiciones.html" class="text-light mx-2">Términos</a>
-</p>
-  </footer>
-<script src="https://unpkg.com/scrollreveal"></script>
-<script>
-  // Configuración general
-  ScrollReveal({ 
-    distance: '40px',
-    duration: 1000,
-    easing: 'ease-in-out',
-    delay: 200,
-    reset: false // true si quieres que se repita cada vez que aparece
-  });
+</main>
 
-  // Animaciones por sección
-  ScrollReveal().reveal('.hero h1', { origin: 'top' });
-  ScrollReveal().reveal('.hero p', { origin: 'bottom', delay: 400 });
-  ScrollReveal().reveal('.hero a', { origin: 'bottom', delay: 600 });
+<footer class="pie">
+  <div class="contenedor">
+    <div class="rejilla">
+      <div>
+        <img class="logo-pie" src="img/logo.webp" alt="Flor de Vida" width="81" height="64" loading="lazy">
+        <p>Empresa familiar de reformas integrales y asesoramiento inmobiliario. Trabajamos desde Roses en toda la Costa Brava.</p>
+      </div>
+      <div>
+        <h3>Contacto</h3>
+        <ul>
+          <li><a href="tel:+34640320103"><i class="bi bi-telephone"></i>+34 640 320 103</a></li>
+          <li><a href="https://wa.me/34640320103?text=Hola%2C%20he%20visto%20vuestra%20web%20y%20me%20gustar%C3%ADa%20pedir%20presupuesto%20para%20una%20reforma." target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i>WhatsApp</a></li>
+          <li><a href="mailto:reformas@flordevida.es"><i class="bi bi-envelope"></i>reformas@flordevida.es</a></li>
+          <li><i class="bi bi-geo-alt"></i>Roses · Empuriabrava · Figueres · Costa Brava</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Síguenos</h3>
+        <ul>
+          <li><a href="https://www.instagram.com/flordevida.es/" target="_blank" rel="noopener"><i class="bi bi-instagram"></i>Instagram</a></li>
+          <li><a href="https://www.youtube.com/channel/UCJ9HT8b3jjRuxkGx3iKa4Og" target="_blank" rel="noopener"><i class="bi bi-youtube"></i>YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legales">
+      <span>© 2026 Flor de Vida. Todos los derechos reservados.</span>
+      <span><a href="aviso-legal.html">Aviso legal</a> · <a href="privacidad.html">Privacidad</a> · <a href="cookies.html">Cookies</a> · <a href="terminos-y-condiciones.html">Términos</a></span>
+    </div>
+  </div>
+</footer>
 
-  ScrollReveal().reveal('#quienes h2', { origin: 'bottom' });
-  ScrollReveal().reveal('#quienes p', { origin: 'bottom', delay: 300 });
-  ScrollReveal().reveal('#quienes .col-md-4', { interval: 200, origin: 'bottom' });
-
-  ScrollReveal().reveal('.bg-light h2', { origin: 'top' });
-  ScrollReveal().reveal('.bg-light .col-md-4', { interval: 200, origin: 'bottom' });
-
-  ScrollReveal().reveal('#proyectos h2', { origin: 'bottom' });
-  ScrollReveal().reveal('#proyectos .col-md-6', { interval: 200, origin: 'bottom' });
-
-  ScrollReveal().reveal('.bg-dark h2, .bg-dark p, .bg-dark a', { origin: 'bottom', interval: 200 });
-
-  ScrollReveal().reveal('footer', { origin: 'bottom', delay: 300 });
-</script>
-  <!-- Bootstrap Bundle con Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+<a class="wa-flotante" href="https://wa.me/34640320103?text=Hola%2C%20he%20visto%20vuestra%20web%20y%20me%20gustar%C3%ADa%20pedir%20presupuesto%20para%20una%20reforma." target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp"><i class="bi bi-whatsapp"></i></a>
+<script src="js/web.js" defer></script>
 </body>
 </html>

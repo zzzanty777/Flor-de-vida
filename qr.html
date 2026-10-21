@@ -1,170 +1,93 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Valoración rápida - Flor de Vida</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/estilos-responsive.css">
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      background-color: #F8F9FA;
-    }
-    h1, h2, h3 {
-      font-family: 'Playfair Display', serif;
-    }
-    .navbar {
-      background-color: #F5F5DC;
-    }
-    .hero {
-      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('tu-imagen-de-fondo.jpg') no-repeat center center/cover;
-      height: 100vh;
-      color: white;
-    }
-    .btn-dorado {
-      background-color: #D4AF37;
-      color: white;
-      border: none;
-    }
-    .btn-dorado:hover {
-      background-color: #bfa033;
-    }
-    .proyecto-img {
-      border-radius: 10px;
-      transition: transform 0.3s ease;
-    }
-    .proyecto-img:hover {
-      transform: scale(1.03);
-    }
-    footer {
-      background-color: #0D1B2A;
-      color: #ccc;
-      padding: 40px 0;
-    }
-    /* Animación de subrayado elegante */
-.navbar-nav .nav-link {
-  position: relative;
-  display: inline-block;
-  padding: 5px 0;
-  color: #1A2639; /* azul petróleo oscuro */
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Valoración gratuita de tu propiedad | Flor de Vida</title>
+  <meta name="description" content="Escanea nuestro código QR y obtén una valoración aproximada y gratuita de tu propiedad en la Costa Brava.">
+  <link rel="canonical" href="https://flordevida.es/qr.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Flor de Vida">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:title" content="Valoración gratuita de tu propiedad | Flor de Vida">
+  <meta property="og:description" content="Escanea nuestro código QR y obtén una valoración aproximada y gratuita de tu propiedad en la Costa Brava.">
+  <meta property="og:url" content="https://flordevida.es/qr.html">
+  <meta property="og:image" content="https://flordevida.es/img/proyectos/estudio-empuriabrava/despues1.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0D1B2A">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
 
-.navbar-nav .nav-link::after {
-  content: '';
-  position: absolute;
-  width: 0%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #D4AF37; /* dorado */
-  transition: width 0.3s ease;
-}
-
-.navbar-nav .nav-link:hover {
-  color: #D4AF37;
-}
-
-.navbar-nav .nav-link:hover::after {
-  width: 100%;
-}
-
-
-  </style>
 </head>
 <body>
 
- <!-- NAVBAR GLOBAL -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
-  <div class="container">
-    <a class="navbar-brand mx-auto" href="index.html">
-      <img src="logo.png" alt="Flor de Vida" height="90">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-      <ul class="navbar-nav gap-4">
-        <li class="nav-item">
-          <a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="servicios.html">Servicios</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="proyectos.html">Proyectos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contacto.html">Contacto</a>
-        </li>
-      </ul>
+<header class="cabecera">
+  <div class="contenedor">
+    <a class="logo" href="index.html"><img src="img/logo.webp" alt="Flor de Vida — reformas integrales" width="74" height="58"></a>
+    <button class="menu-boton" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><i class="bi bi-list"></i></button>
+    <nav class="menu" id="menu">
+      <a href="sobre-nosotros.html">Sobre nosotros</a>
+      <a href="servicios.html" aria-current="page">Servicios</a>
+      <a href="proyectos.html">Proyectos</a>
+      <a href="contacto.html">Contacto</a>
+      <a class="btn btn--dorado" href="contacto.html">Presupuesto gratis</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="seccion centrado">
+    <div class="contenedor">
+      <span class="antetitulo">Valoración gratuita</span>
+      <h1>Escanea el código QR</h1>
+      <p class="intro">Te redirigiremos a una web externa donde podrás obtener una valoración aproximada de tu propiedad rellenando unos datos.</p>
+      <img src="qr.jpg" alt="Código QR para la valoración de tu propiedad" width="300" style="margin: 0 auto">
+      <p style="margin-top: 24px"><small>Este servicio es gratuito y externo a Flor de Vida. Para más información, consulta nuestra <a href="privacidad.html">política de privacidad</a>.</small></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="pie">
+  <div class="contenedor">
+    <div class="rejilla">
+      <div>
+        <img class="logo-pie" src="img/logo.webp" alt="Flor de Vida" width="81" height="64" loading="lazy">
+        <p>Empresa familiar de reformas integrales y asesoramiento inmobiliario. Trabajamos desde Roses en toda la Costa Brava.</p>
+      </div>
+      <div>
+        <h3>Contacto</h3>
+        <ul>
+          <li><a href="tel:+34640320103"><i class="bi bi-telephone"></i>+34 640 320 103</a></li>
+          <li><a href="https://wa.me/34640320103?text=Hola%2C%20he%20visto%20vuestra%20web%20y%20me%20gustar%C3%ADa%20pedir%20presupuesto%20para%20una%20reforma." target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i>WhatsApp</a></li>
+          <li><a href="mailto:reformas@flordevida.es"><i class="bi bi-envelope"></i>reformas@flordevida.es</a></li>
+          <li><i class="bi bi-geo-alt"></i>Roses · Empuriabrava · Figueres · Costa Brava</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Síguenos</h3>
+        <ul>
+          <li><a href="https://www.instagram.com/flordevida.es/" target="_blank" rel="noopener"><i class="bi bi-instagram"></i>Instagram</a></li>
+          <li><a href="https://www.youtube.com/channel/UCJ9HT8b3jjRuxkGx3iKa4Og" target="_blank" rel="noopener"><i class="bi bi-youtube"></i>YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legales">
+      <span>© 2026 Flor de Vida. Todos los derechos reservados.</span>
+      <span><a href="aviso-legal.html">Aviso legal</a> · <a href="privacidad.html">Privacidad</a> · <a href="cookies.html">Cookies</a> · <a href="terminos-y-condiciones.html">Términos</a></span>
     </div>
   </div>
-</nav>
-  
-  <section class="d-flex align-items-center justify-content-center" style="min-height: 80vh;">
-  <div class="container text-center">
-    <h1 class="mb-4">Escanea el código QR</h1>
-    <p class="mb-4">Te redirigiremos a una web externa donde podrás obtener una valoración aproximada de tu propiedad rellenando unos datos.</p>
-    <img src="qr.jpg" alt="Código QR para valoración" class="img-fluid" style="max-width: 300px;">
-    <p class="mt-4 text-muted" style="font-size: 0.9rem;">
-      Este servicio es gratuito y externo a Flor de Vida.<br>
-      Para más información, consulta nuestras <a href="privacidad.html">políticas de privacidad</a>.
-    </p>
-  </div>
-</section>
-  
-  <!-- FOOTER -->
-  <footer class="text-center">
-    <img src="logo.png" alt="Flor de Vida" height="55" class="mb-3">
-    <p>© 2025 Flor de Vida. Todos los derechos reservados.</p>
-    <p>
-      <a href="#" class="text-decoration-none text-light mx-2">Instagram</a>
-      <a href="#" class="text-decoration-none text-light mx-2">WhatsApp</a>
-    </p>
-   <p>
-  <a href="aviso-legal.html" class="text-light mx-2">Aviso Legal</a> |
-  <a href="privacidad.html" class="text-light mx-2">Privacidad</a> |
-  <a href="cookies.html" class="text-light mx-2">Cookies</a> |
-  <a href="terminos-y-condiciones.html" class="text-light mx-2">Términos</a>
-</p>
-  </footer>
-<script src="https://unpkg.com/scrollreveal"></script>
-<script>
-  // Configuración general
-  ScrollReveal({ 
-    distance: '40px',
-    duration: 1000,
-    easing: 'ease-in-out',
-    delay: 200,
-    reset: false // true si quieres que se repita cada vez que aparece
-  });
+</footer>
 
-  // Animaciones por sección
-  ScrollReveal().reveal('.hero h1', { origin: 'top' });
-  ScrollReveal().reveal('.hero p', { origin: 'bottom', delay: 400 });
-  ScrollReveal().reveal('.hero a', { origin: 'bottom', delay: 600 });
-
-  ScrollReveal().reveal('#quienes h2', { origin: 'bottom' });
-  ScrollReveal().reveal('#quienes p', { origin: 'bottom', delay: 300 });
-  ScrollReveal().reveal('#quienes .col-md-4', { interval: 200, origin: 'bottom' });
-
-  ScrollReveal().reveal('.bg-light h2', { origin: 'top' });
-  ScrollReveal().reveal('.bg-light .col-md-4', { interval: 200, origin: 'bottom' });
-
-  ScrollReveal().reveal('#proyectos h2', { origin: 'bottom' });
-  ScrollReveal().reveal('#proyectos .col-md-6', { interval: 200, origin: 'bottom' });
-
-  ScrollReveal().reveal('.bg-dark h2, .bg-dark p, .bg-dark a', { origin: 'bottom', interval: 200 });
-
-  ScrollReveal().reveal('footer', { origin: 'bottom', delay: 300 });
-</script>
-<!-- Bootstrap Bundle con Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+<a class="wa-flotante" href="https://wa.me/34640320103?text=Hola%2C%20he%20visto%20vuestra%20web%20y%20me%20gustar%C3%ADa%20pedir%20presupuesto%20para%20una%20reforma." target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp"><i class="bi bi-whatsapp"></i></a>
+<script src="js/web.js" defer></script>
 </body>
 </html>

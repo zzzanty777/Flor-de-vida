@@ -1,0 +1,20 @@
+{
+  "nombre": "Flor de Vida",
+  "dominio": "https://flordevida.es",
+  "email": "reformas@flordevida.es",
+  "telefono": "+34 640 320 103",
+  "whatsapp": "34640320103",
+  "mensajeWhatsapp": "Hola, he visto vuestra web y me gustaría pedir presupuesto para una reforma.",
+  "instagram": "https://www.instagram.com/flordevida.es/",
+  "youtube": "https://www.youtube.com/channel/UCJ9HT8b3jjRuxkGx3iKa4Og",
+  "ciudad": "Roses",
+  "provincia": "Girona",
+  "zonas": ["Roses", "Empuriabrava", "Figueres", "Costa Brava"],
+  "experiencia": "+6 años",
+
+  "titular": "",
+  "nif": "",
+  "domicilio": "",
+
+  "opiniones": []
+}
