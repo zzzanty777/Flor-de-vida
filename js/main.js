@@ -1,4 +1,4 @@
-/* Flor de Vida Reformas - JS principal (sin dependencias). Animaciones solo si el usuario no pide reducir movimiento. */
+/* Espacios Flor de Vida - JS principal (sin dependencias). Animaciones solo si el usuario no pide reducir movimiento. */
 (function () {
   var $ = function (s, c) { return (c || document).querySelector(s); };
   var $$ = function (s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); };
