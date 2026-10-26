@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://flordevida.es/aviso-legal.html</loc></url>
-  <url><loc>https://flordevida.es/contacto.html</loc></url>
-  <url><loc>https://flordevida.es/cookies.html</loc></url>
   <url><loc>https://flordevida.es/</loc></url>
-  <url><loc>https://flordevida.es/privacidad.html</loc></url>
-  <url><loc>https://flordevida.es/proyectos.html</loc></url>
-  <url><loc>https://flordevida.es/qr.html</loc></url>
   <url><loc>https://flordevida.es/servicios.html</loc></url>
-  <url><loc>https://flordevida.es/sobre-nosotros.html</loc></url>
-  <url><loc>https://flordevida.es/terminos-y-condiciones.html</loc></url>
+  <url><loc>https://flordevida.es/proyectos.html</loc></url>
   <url><loc>https://flordevida.es/proyecto-estudio.html</loc></url>
   <url><loc>https://flordevida.es/proyecto-bano-empuriabrava.html</loc></url>
   <url><loc>https://flordevida.es/casa-con-piscina.html</loc></url>
   <url><loc>https://flordevida.es/proyecto-puertas-correderas.html</loc></url>
   <url><loc>https://flordevida.es/proyecto-tarima-exterior.html</loc></url>
+  <url><loc>https://flordevida.es/sobre-nosotros.html</loc></url>
+  <url><loc>https://flordevida.es/contacto.html</loc></url>
+  <url><loc>https://flordevida.es/aviso-legal.html</loc></url>
+  <url><loc>https://flordevida.es/privacidad.html</loc></url>
+  <url><loc>https://flordevida.es/cookies.html</loc></url>
+  <url><loc>https://flordevida.es/terminos-y-condiciones.html</loc></url>
+  <url><loc>https://flordevida.es/qr.html</loc></url>
 </urlset>

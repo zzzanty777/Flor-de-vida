@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 200" role="img" aria-label="Flor de Vida Reformas">
+  <title>Flor de Vida Reformas - Fondo oscuro</title>
+  <g transform="translate(10,6)" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 80 L100 28 L170 80"/>
+    <g stroke-width="3">
+      <circle cx="100" cy="108" r="22" fill="#C8963E" fill-opacity="0.25" stroke="#C8963E"/>
+      <circle cx="122" cy="108" r="22"/>
+      <circle cx="78" cy="108" r="22"/>
+      <circle cx="111" cy="127.05" r="22"/>
+      <circle cx="89" cy="127.05" r="22"/>
+      <circle cx="111" cy="88.95" r="22"/>
+      <circle cx="89" cy="88.95" r="22"/>
+    </g>
+    <path d="M40 162 H160" stroke="#C8963E" stroke-width="5"/>
+  </g>
+  <line x1="222" y1="48" x2="222" y2="152" stroke="#3B4757" stroke-width="2"/>
+  <text x="246" y="104" font-family="'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="3" fill="#FFFFFF">FLOR DE VIDA</text>
+  <text x="248" y="142" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="500" letter-spacing="9" fill="#C8963E">REFORMAS</text>
+</svg>
